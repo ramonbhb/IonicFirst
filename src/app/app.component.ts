@@ -41,6 +41,11 @@ export class AppComponent implements OnInit {
       title: 'Spam',
       url: '/folder/Spam',
       icon: 'warning'
+    },
+    {
+      title: 'Contato',
+      url: '/contato',
+      icon: 'contact'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
