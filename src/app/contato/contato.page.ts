@@ -12,6 +12,7 @@ export class ContatoPage implements OnInit {
     { text: "Cancelar", role: "cancel"},
     { text: "Aceito"}
   ]
+  
   constructor(public actionSheetController: ActionSheetController) { }
 
   ngOnInit() {
