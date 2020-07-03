@@ -27,6 +27,10 @@ export class AppComponent implements OnInit {
       url: '/viagens',
       icon: 'paper-plane'
     },
+    {
+      title: "Contatos",
+      url: '/contatos',      
+    }
   ];
 
   constructor(
